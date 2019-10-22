@@ -86,7 +86,7 @@ namespace ClipDocsChampion
 
             }
 
-            private System.Text.RegularExpressions.Regex reg = new System.Text.RegularExpressions.Regex("^https+://docs.microsoft.com/.*", System.Text.RegularExpressions.RegexOptions.Compiled);
+            private System.Text.RegularExpressions.Regex reg = new System.Text.RegularExpressions.Regex("^https?://docs.microsoft.com/.*", System.Text.RegularExpressions.RegexOptions.Compiled);
 
             /// <summary>クリップボードにあるURLにIDを追加する</summary>
             public void OnClip()
